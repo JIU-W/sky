@@ -81,9 +81,11 @@
             <artifactId>aspectjweaver</artifactId>
         </dependency>
 
+        <!--knife4j-->
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-spring-boot-starter</artifactId>
+            <version>3.0.2</version>
         </dependency>
 
         <dependency>
