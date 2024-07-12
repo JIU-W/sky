@@ -16,6 +16,12 @@ sky:
     post: 6379
     password: 123456
     database: 10
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: 100ms
   wechat:
     appid: wxb840c872a7f1c8bf
     secret: cbe87c7849a50ad95b4ab2defbbcd8cd
